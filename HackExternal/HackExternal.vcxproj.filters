@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="offset.h" />
+    <ClInclude Include="singleton.h" />
+    <ClInclude Include="function.h" />
+    <ClInclude Include="vector.h" />
+    <ClInclude Include="cfg.h" />
+    <ClInclude Include="menucycle.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="bone.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{ec4a7048-93cf-476d-a355-332555c112f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
