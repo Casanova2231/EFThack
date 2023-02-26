@@ -61,14 +61,14 @@ std::string BoxLocalPlayer(std::string& Gname, WORLDDATA& data)
 		if (Gname == findTargetString(Gname, "Player"))
 		{
 			data.color = D2D1::ColorF::Red;
-			data.name = "Íæ¼Ò";
+			data.name = "çŽ©å®¶";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == findTargetString(Gname, "Bot"))
 		{
 			data.color = D2D1::ColorF::DarkOrange;
-			data.name = "ÈË»ú";
+			data.name = "äººæœº";
 			data.EAname = Gname;
 			return "A";
 		}
@@ -85,7 +85,7 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		if (Gname == findTargetString(Gname, "item_keycard_interchange_"))
 		{
 			data.color = D2D1::ColorF::Red;
-			data.name = "#SRÃÅ¿¨";
+			data.name = "#SRé—¨å¡";
 			data.EAname = Gname;
 			return "A";
 		}
@@ -106,14 +106,14 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		else if (Gname == "item_flash_card_ironkey(Clone)")
 		{
 			data.color = D2D1::ColorF::Red;
-			data.name = "UÅÌ";
+			data.name = "Uç›˜";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_info_intelligence(Clone)")
 		{
 			data.color = D2D1::ColorF::Red;
-			data.name = "Çé±¨";
+			data.name = "æƒ…æŠ¥";
 			data.EAname = Gname;
 			data.EAname = Gname;
 			return "A";
@@ -121,7 +121,7 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		else if (Gname == "item_barter_valuable_elibadge(Clone)")
 		{
 			data.color = D2D1::ColorF::Red;
-			data.name = "»ÕÕÂ";
+			data.name = "å¾½ç« ";
 			data.EAname = Gname;
 			data.EAname = Gname;
 			return "A";
@@ -136,7 +136,7 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		else if (Gname == "item_barter_medical_defibrillator(Clone)")
 		{
 			data.color = D2D1::ColorF::Red;
-			data.name = "³ý²üÆ÷";
+			data.name = "é™¤é¢¤å™¨";
 			data.EAname = Gname;
 			data.EAname = Gname;
 			return "A";
@@ -144,21 +144,21 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		else if (Gname == "item_spec_armorrepair(Clone)")
 		{
 			data.color = D2D1::ColorF::Red;
-			data.name = "Î¬ÐÞ°ü";
+			data.name = "ç»´ä¿®åŒ…";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_thick_diary(Clone)")
 		{
 			data.color = D2D1::ColorF::Red;
-			data.name = "ÈÕ¼Ç";
+			data.name = "æ—¥è®°";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_barter_other_airfilter(Clone)")
 		{
 			data.color = D2D1::ColorF::Red;
-			data.name = "¹ýÂËÎüÊÕÆ÷";
+			data.name = "è¿‡æ»¤å¸æ”¶å™¨";
 			data.EAname = Gname;
 			return "A";
 		}
@@ -178,47 +178,47 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		else if (Gname == findTargetString(Gname, "item_key_"))
 		{
 			data.color = D2D1::ColorF::Pink;
-			data.name = "Ô¿³×";
+			data.name = "é’¥åŒ™";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_keycard_lab_yellow(Clone)")
 		{
 			data.color = D2D1::ColorF::Yellow;
-			data.name = "»Æ¿¨";
+			data.name = "é»„å¡";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_keycard_lab_red(Clone)")
 		{
 			data.color = D2D1::ColorF::Red;
-			data.name = "ºì¿¨";
+			data.name = "çº¢å¡";
 			return "A";
 		}
 		else if (Gname == "item_keycard_lab_purple(Clone)")
 		{
 			data.color = D2D1::ColorF::Purple;
-			data.name = "×Ï¿¨";
+			data.name = "ç´«å¡";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_keycard_lab_blue(Clone)")
 		{
 			data.color = D2D1::ColorF::Blue;
-			data.name = "À¶¿¨";
+			data.name = "è“å¡";
 			return "A";
 		}
 		else if (Gname == "item_keycard_lab_black(Clone)")
 		{
 			data.color = D2D1::ColorF::Black;
-			data.name = "ºÚ¿¨";
+			data.name = "é»‘å¡";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_keycard_lab_white(Clone)")
 		{
 			data.color = D2D1::ColorF::PaleVioletRed;
-			data.name = "°×¿¨";
+			data.name = "ç™½å¡";
 			return "A";
 		}
 		else if (Gname == "item_barter_electr_ssd(Clone)")
@@ -231,14 +231,14 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		else if (Gname == findTargetString(Gname, "item_money_"))
 		{
 			data.color = D2D1::ColorF::Pink;
-			data.name = "Ç®";
+			data.name = "é’±";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_manual_lada(Clone)")
 		{
 			data.color = D2D1::ColorF::Pink;
-			data.name = "ÊÖ²á";
+			data.name = "æ‰‹å†Œ";
 			data.EAname = Gname;
 			return "A";
 		}
@@ -252,41 +252,41 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		else if (Gname == "item_barter_valuable_raven(Clone)")
 		{
 			data.color = D2D1::ColorF::Pink;
-			data.name = "ÎÚÑ»";
+			data.name = "ä¹Œé¸¦";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_barter_valuable_chicken(Clone)")
 		{
 			data.color = D2D1::ColorF::Pink;
-			data.name = "½ð¼¦";
+			data.name = "é‡‘é¸¡";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_video_card(Clone)")
 		{
 			data.color = D2D1::ColorF::Pink;
-			data.name = "ÏÔ¿¨";
+			data.name = "æ˜¾å¡";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_quest_barter_valuable_teapot(Clone)")
 		{
 			data.color = D2D1::ColorF::Pink;
-			data.name = "²èºø";
+			data.name = "èŒ¶å£¶";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_barter_valuable_rolex(Clone)")
 		{
 			data.color = D2D1::ColorF::Pink;
-			data.name = "ÀÍÁ¦Ê¿";
+			data.name = "åŠ³åŠ›å£«";
 			return "A";
 		}
 		else if (Gname == "item_barter_valuable_skullring(Clone)")
 		{
 			data.color = D2D1::ColorF::Pink;
-			data.name = "÷¼÷Ã";
+			data.name = "éª·é«…";
 			data.EAname = Gname;
 			return "A";
 		}
@@ -294,76 +294,76 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		else if (Gname == "item_barter_valuable_nyball_violet(Clone)")
 		{
 			data.color = D2D1::ColorF::Orange;
-			data.name = "×ÏÇò";
+			data.name = "ç´«çƒ";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_horse_figurine(Clone)")
 		{
 			data.color = D2D1::ColorF::Orange;
-			data.name = "Âí";
+			data.name = "é©¬";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_barter_valuable_cat(Clone)")
 		{
 			data.color = D2D1::ColorF::Orange;
-			data.name = "Ã¨";
+			data.name = "çŒ«";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_barter_valuable_kresalo(Clone)")
 		{
 			data.color = D2D1::ColorF::Orange;
-			data.name = "»ðÁ´";
+			data.name = "ç«é“¾";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_barter_other_dobby(Clone)")
 		{
 			data.color = D2D1::ColorF::Orange;
-			data.name = "Êé";
+			data.name = "ä¹¦";
 			return "A";
 		}
 		else if (Gname == "item_barter_valuable_woodclock(Clone)")
 		{
 			data.color = D2D1::ColorF::Orange;
-			data.name = "ÖÓµ÷";
+			data.name = "é’Ÿè°ƒ";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_barter_valuable_prokill(Clone)")
 		{
 			data.color = D2D1::ColorF::Orange;
-			data.name = "ÏîÁ´";
+			data.name = "é¡¹é“¾";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_chain_gold(Clone)")
 		{
 			data.color = D2D1::ColorF::Orange;
-			data.name = "½ðÁ´";
+			data.name = "é‡‘é“¾";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_quest_barter_valuable_vase(Clone)")
 		{
 			data.color = D2D1::ColorF::Orange;
-			data.name = "»¨Æ¿";
+			data.name = "èŠ±ç“¶";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_barter_valuable_lion(Clone)")
 		{
 			data.color = D2D1::ColorF::Orange;
-			data.name = "É³µñ";
+			data.name = "æ²™é›•";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_chain(Clone)")
 		{
 			data.color = D2D1::ColorF::Orange;
-			data.name = "ÏîÁ´";
+			data.name = "é¡¹é“¾";
 			data.EAname = Gname;
 			return "A";
 		}
@@ -371,49 +371,49 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		else if (Gname == "item_barter_electr_tetriz(Clone)")
 		{
 			data.color = D2D1::ColorF::Orange;
-			data.name = "ÓÎÏ·»ú";
+			data.name = "æ¸¸æˆæœº";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_barter_electr_cablemilitary(Clone)")
 		{
 			data.color = D2D1::ColorF::Orange;
-			data.name = "¾üÓÃµçÀÂ";
+			data.name = "å†›ç”¨ç”µç¼†";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_barter_medical_bloodset(Clone)")
 		{
 			data.color = D2D1::ColorF::Coral;
-			data.name = "ÊäÑª¹¤¾ß";
+			data.name = "è¾“è¡€å·¥å…·";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_barter_electr_gyrotachometer(Clone)")
 		{
 			data.color = D2D1::ColorF::Coral;
-			data.name = "¾üÓÃ¼ÆÊýÆ÷";
+			data.name = "å†›ç”¨è®¡æ•°å™¨";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_barter_valuable_1gphone(Clone)")
 		{
 			data.color = D2D1::ColorF::Coral;
-			data.name = "Æ»¹û13pro";
+			data.name = "è‹¹æžœ13pro";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_spec_ipcamera(Clone)")
 		{
 			data.color = D2D1::ColorF::Coral;
-			data.name = "ÉãÏñÍ·";
+			data.name = "æ‘„åƒå¤´";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_barter_electr_militaryboard(Clone)")
 		{
 			data.color = D2D1::ColorF::Coral;
-			data.name = "¾üÓÃµçÂ·°å";
+			data.name = "å†›ç”¨ç”µè·¯æ¿";
 			data.EAname = Gname;
 			return "A";
 		}
@@ -425,48 +425,48 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		if (Gname == "item_ibuprofen_loot(Clone)")
 		{
 			data.color = D2D1::ColorF::Chartreuse;
-			data.name = "²¼Âå·Ò";
+			data.name = "å¸ƒæ´›èŠ¬";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_ifak_loot(Clone)")
 		{
 			data.color = D2D1::ColorF::Chartreuse;
-			data.name = "µ¥±ø¼±¾È°ü";
+			data.name = "å•å…µæ€¥æ•‘åŒ…";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_augmentin_loot(Clone)")
 		{
 			data.color = D2D1::ColorF::Chartreuse;
-			data.name = "°ÙÁ¦¶¡";
+			data.name = "ç™¾åŠ›ä¸";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_meds_survival_first_aid_rollup_kit_loot(Clone)")
 		{
 			data.color = D2D1::ColorF::Chartreuse;
-			data.name = "Õ½ÊõÊÖÊõ°ü";
+			data.name = "æˆ˜æœ¯æ‰‹æœ¯åŒ…";
 			data.EAname = Gname;
 			return "A";
 		}
 		//else if (Gname == "item_grizzly_loot(Clone)")
 		//{
 		//	data.color = ImColor(0, 255, 0);
-		//	data.name = "grizziy¼±¾È°ü";
+		//	data.name = "grizziyæ€¥æ•‘åŒ…";
 		//	return true;
 		//}
 		else if (findTargetString(Gname, "item_stimulator_") != "")
 		{
 			data.color = D2D1::ColorF::Chartreuse;
-			data.name = "Õë¼Á";
+			data.name = "é’ˆå‰‚";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_vaselin_loot(Clone)")
 		{
 			data.color = D2D1::ColorF::Chartreuse;
-			data.name = "·²Ê¿ÁÖ";
+			data.name = "å‡¡å£«æž—";
 			data.EAname = Gname;
 			return "A";
 		}
@@ -479,70 +479,70 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		if (Gname == "scope_all_holosun_hs401g5(Clone)")
 		{
 			data.color = D2D1::ColorF::Orchid;
-			data.name = "hs401g5Ãé×¼¾µ";
+			data.name = "hs401g5çž„å‡†é•œ";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "scope_all_valday_ps320(Clone)")
 		{
 			data.color = D2D1::ColorF::Orchid;
-			data.name = "PS320Ãé×¼¾µ";
+			data.name = "PS320çž„å‡†é•œ";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "scope_g36_hensoldt_hkv_carry_handle_3x(Clone)")
 		{
 			data.color = D2D1::ColorF::Orchid;
-			data.name = "Èý±¶¾µ";
+			data.name = "ä¸‰å€é•œ";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "muzzle_ak_srvv_mbrfhmb_762_762x39(Clone)")
 		{
 			data.color = D2D1::ColorF::Orchid;
-			data.name = "²¹³¥Æ÷";
+			data.name = "è¡¥å¿å™¨";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "mount_mp443_zenit_b8(Clone)")
 		{
 			data.color = D2D1::ColorF::Orchid;
-			data.name = "B-8»ù×ù";
+			data.name = "B-8åŸºåº§";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "pistolgrip_ar15_stark_ar_rifle_grip_blk(Clone)")
 		{
 			data.color = D2D1::ColorF::Orchid;
-			data.name = "AR15ÎÕ±ú";
+			data.name = "AR15æ¡æŸ„";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "mag_tt_toz_std_762x25tt_8(Clone)")
 		{
 			data.color = D2D1::ColorF::Orchid;
-			data.name = "TT µ¯¼Ð";
+			data.name = "TT å¼¹å¤¹";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "mag_pm_izhmeh_9x18pm_8(Clone)")
 		{
 			data.color = D2D1::ColorF::Orchid;
-			data.name = "9x18µ¯¼Ð";
+			data.name = "9x18å¼¹å¤¹";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "mag_ak_izhmash_ak_std_55_762x39_30(Clone)")
 		{
 			data.color = D2D1::ColorF::Orchid;
-			data.name = "762x39µ¯¼Ð";
+			data.name = "762x39å¼¹å¤¹";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "mag_stanag_surefire_mag5_556x45_100(Clone)")
 		{
 			data.color = D2D1::ColorF::Orchid;
-			data.name = "MAG5µ¯¼Ð";
+			data.name = "MAG5å¼¹å¤¹";
 			data.EAname = Gname;
 			return "A";
 		}
@@ -553,35 +553,35 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		if (Gname == "item_ammo_box_762x39_20(Clone)")
 		{
 			data.color = D2D1::ColorF::Purple;
-			data.name = "762x39×Óµ¯";
+			data.name = "762x39å­å¼¹";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_ammo_box_545x39_120_BT(Clone)")
 		{
 			data.color = D2D1::ColorF::Purple;
-			data.name = "545x39×Óµ¯";
+			data.name = "545x39å­å¼¹";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_ammo_box_545x39_120_PRS(Clone)")
 		{
 			data.color = D2D1::ColorF::Purple;
-			data.name = "545x39×Óµ¯";
+			data.name = "545x39å­å¼¹";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_ammo_box_9x18pm_16(Clone)")
 		{
 			data.color = D2D1::ColorF::Purple;
-			data.name = "9x18 ×Óµ¯";
+			data.name = "9x18 å­å¼¹";
 			data.EAname = Gname;
 			return "A";
 		}
 		else if (Gname == "item_ammo_box_545x39_30(Clone)")
 		{
 			data.color = D2D1::ColorF::Purple;
-			data.name = "545x39×Óµ¯";
+			data.name = "545x39å­å¼¹";
 			data.EAname = Gname;
 			return "A";
 		}
@@ -626,7 +626,7 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		else if (Gname == "weapon_dt_mdr_762x51_container(Clone)")
 		{
 			data.color = D2D1::ColorF::Khaki;
-			data.name = "MBR²½Ç¹";
+			data.name = "MBRæ­¥æžª";
 			data.EAname = Gname;
 			return "A";
 		}
@@ -647,7 +647,7 @@ std::string Valuableobjects(std::string& Gname, WORLDDATA& data)
 		else if (Gname == "weapon_beretta_m9a3_9x19_container(Clone)")
 		{
 			data.color = D2D1::ColorF::Khaki;
-			data.name = "m9a3ÊÖÇ¹";
+			data.name = "m9a3æ‰‹æžª";
 			data.EAname = Gname;
 			return "A";
 		}
@@ -813,12 +813,7 @@ auto GameCache()->VOID
 
 	while (true)
 	{
-		std::vector<EntityList> tmpList;
-		std::vector<EntityItem> tmpItem;
-
-		//BYTE * patternCOM = ( BYTE *) "\xE8\x00\x00\x00\x00\x4C\x8B\x05\x00\x00\x00\x00\x33\xD2" ; 
-		//BYTE* patternGOM = (BYTE*)"\x48\x89\x09\x48\x89\x05\x00\x00\x00\x00\x48\x83\xC4\x38";
-		//E8 ? ? ? ? 4C 8B 05 ? ? ? ? 33 D2
+		std::vector<EntityLt>mt
 		GameVars.gameManager = maxread<uint64_t>(GameVars.dwProcess_Base + 0x17ffd28);
 
 		auto onlineusers = maxread<uint64_t>(g_gameWorld(GameVars.gameManager) + 0x80);
@@ -843,9 +838,6 @@ auto GameCache()->VOID
 			write<float>(Aendurance + 0x70, 0.0f);
 			write<float>(Aendurance + 0x78, 0.0f);
 		}
-
-			//' Player -> [530] Physical : -.GClass0627-> [38] Stamina : -.GClass0625-> [48] Current : Single
-			//' Player->ProceduralWeaponAnimation(0x1A0)->ShotEffector(0x48)->Intensity(0x78) ÉèÖÃÎª 0.f
 
 
 
@@ -951,7 +943,7 @@ auto RenderVisual()->VOID
 
 
 
-		if (Entity.actor_ADAD.name == "Íæ¼Ò")
+		if (Entity.actor_ADAD.name == "çŽ©å®¶")
 		{
 			auto pyname = ReadChain(Entity.actor_pawn, { 0x520, 0x28, 0x10 });
 			auto NAME = read_wstring(pyname + 0x14);
@@ -963,7 +955,7 @@ auto RenderVisual()->VOID
 		{
 
 			DrawBox(StartEnd.x - (EndBone.y - StartEnd.y) / 4, StartEnd.y, (EndBone.y - StartEnd.y) / 2, EndBone.y - StartEnd.y, Entity.actor_ADAD.color);
-			DrawRenderTextA(EndBone.x, EndBone.y,"ÈË»ú", Entity.actor_ADAD.color, pTextFormatKaiTi, 11.0f);
+			DrawRenderTextA(EndBone.x, EndBone.y,"äººæœº", Entity.actor_ADAD.color, pTextFormatKaiTi, 11.0f);
 			DrawRenderTextA(EndBone.x, EndBone.y + 11, xdis, Entity.actor_ADAD.color, pTextFormatKaiTi, 11.0f);
 
 		}
